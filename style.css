@@ -38,7 +38,6 @@ body{
     width: 35%;
 }
 .right-section{
-
     width: 40%;
 
 }
@@ -81,6 +80,13 @@ span{
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    display: flex;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 300;
+}
+#about-section h1{
+    text-align: center;
 }
 
 #about-section img{
@@ -88,4 +94,18 @@ span{
 }
 .about-left{
     position: relative;
+    top: 25%;
+    left: 15%;
+}
+.about-right{
+    position: relative;
+    top: 40%;
+    left: 20%;
+    line-height: 30px;
+}
+.about-right p{
+    margin: 30px;
+}
+h1{
+    color: #575757
 }
