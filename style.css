@@ -76,7 +76,7 @@ span{
 
 
 #about-section{
-    background: url('/images/shapes/7.png');
+    background: url('images/shapes/7.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
