@@ -23,21 +23,26 @@ body{
 #hero-section p{
     margin: 40px 0;
 }
-.left-section{
+.left-hero{
     position:absolute;
     top: 30%;
     left: 20%;
-    width: 35%;
+
 }
-.right-section{
+.right-hero{
     position: absolute;
     top: 10%;
     left: 50%;
+}
+.left-section{
+    width: 35%;
+}
+.right-section{
+
     width: 40%;
-    width: 400px;
 
 }
-.right-section img{
+ img{
     max-width: 500px;
 }
  .hero-img{
@@ -68,4 +73,19 @@ span{
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+}
+
+
+#about-section{
+    background: url('/images/shapes/7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#about-section img{
+    width: 300px;
+}
+.about-left{
+    position: relative;
 }
